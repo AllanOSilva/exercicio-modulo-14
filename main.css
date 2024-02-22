@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #415ee1;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: white;
+    color: #415ee1;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: white;
+}
+
+
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+.carousel-inner img{
+    height: 100vh;
+    width: 100%;
+ }
+
+.section-title{
+    font-family: Josefin Sans;
+}
+
+
+
+#sobre-a-empresa, #cardapio, #locais{
+    background-color: #7387e070;
+}
+
+.text-colored{
+    color: #415ee1;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #415ee1;
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #415ee1;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+form textarea{
+    resize: none;
+}
+
+@media screen and (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+
+    
+}
